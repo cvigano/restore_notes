@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require_relative '../lib/restore_notes.rb'
+
+restorer = RestoreNotes.new
+restorer.restore_notes
